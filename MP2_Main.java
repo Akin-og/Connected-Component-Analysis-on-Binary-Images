@@ -1,8 +1,7 @@
 package csc402;
 
 /* 
- * CSC 402 - Mini Project 2
- * 
+
  * Created by: Kenny Davila
  * 
  * Completed by: Akintunde Eyisanmi
