@@ -17,12 +17,7 @@ import javax.imageio.ImageIO;
 
 
 public class MP2_Main {
-	/*
-	 * DO NOT MODIFY UNLESS YOU WANT 0 
-	 * 
-	 * This function loads a binary image from the specified file name, and 
-	 * returns a boolean array representing the image 
-	 * */
+	
 	public static boolean[][] loadImage(String filename){
 		File f = new File(filename);
 		try {
@@ -49,9 +44,7 @@ public class MP2_Main {
 	
 	/*
 	 * This function helps you "visualize" a given image as text
-	 *
-	 * You can modify this to your convenience
-	 * */
+	*/
 	public static String boolImgToString(boolean[][] img_bool) {
 		StringBuffer buffer = new StringBuffer();
 		for (int y = 0; y < img_bool.length; y++) {
